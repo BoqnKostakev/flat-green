@@ -1,0 +1,75 @@
+body {
+
+}
+
+.brick1 {
+	width: 200px;
+	height: 200px;
+}
+
+.brick2 {
+	width: 400px;
+	height: 200px;
+}
+
+figure {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.brick2 figcaption {
+	color: white;
+	background: rgba(0,0,0,.2);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	top: 200px;
+	-webkit-transition: all 1s;
+}
+
+.brick2 figcaption p,
+.brick2 figcaption h3 {
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+.brick2 figcaption p {
+	position: absolute;
+	top: 100px;
+	font-size: 15px;
+}
+
+.brick2 figcaption h3 {
+	font-size: 20px;
+	background: rgba(0,0,0,.5);
+	margin-top: 5px;
+}
+
+.brick2 figure:hover figcaption {
+	top: 0;
+}
+
+.brick1 figcaption {
+	color: white;
+	background: rgba(0,0,0,.2);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	top: 200px;
+	-webkit-transition: all 1s;
+}
+
+.brick1 figcaption h3 {
+	font-size: 20px;
+	background: rgba(0,0,0,.5);
+	padding: 10px;
+}
+
+.brick1 figure:hover figcaption {
+	top: 160px;
+}
+
+
